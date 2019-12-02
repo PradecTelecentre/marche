@@ -82,6 +82,7 @@ class MarchesController extends Controller
         $item->prix = $request->prix;
 
         $item->save();
+        
 
 
 

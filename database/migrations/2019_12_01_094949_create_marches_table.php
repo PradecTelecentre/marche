@@ -23,7 +23,7 @@ class CreateMarchesTable extends Migration
             $table->string('nom', '100');
             $table->integer('number1');
             $table->integer('number2')->nullable();
-            $table->timestamps()->nullable();
+            $table->timestamps();
         });
     }
 
