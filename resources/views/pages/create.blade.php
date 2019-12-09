@@ -4,7 +4,7 @@
     <div class="row">
         @include('inc.leftPicture')
         <div class="col-md-8">
-            <form method="POST" action="{{Route('marche.store') }}" enctype="multipart/form-data">
+            <form method="POST" action="{{Route('marche.store') }}" enctype="multipart/form-data" onSubmit="clearField()";>
                 @csrf
                 <div class="form-group">
                     <label for="exampleInputEmail1">Titre</label>
@@ -59,3 +59,10 @@
 </div>
 @endsection
 
+<script>
+    function clearField() {
+        if(document.getElementById) {
+            document.chatform.message.value = "";
+        }
+    }
+</script>

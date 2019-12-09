@@ -82,12 +82,9 @@ class MarchesController extends Controller
         $item->prix = $request->prix;
 
         $item->save();
-        
-
-
 
         $products = Marche::orderBy('id', 'desc')->paginate(6);
-        return view('pages.index', compact('products'));
+        return redirect('/')->with('success', 'Votre article est ajouté');
     }
 
     /**
