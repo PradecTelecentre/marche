@@ -18,9 +18,8 @@
     </head>
     <body>
         @include('inc.nav')
-        <br><br>
-        <br><br>
-        <main role="main">
+
+        <main role="main" style="margin-top:150px;">
             <div class="container">
                 @include('inc.messages')
                 @yield('content')

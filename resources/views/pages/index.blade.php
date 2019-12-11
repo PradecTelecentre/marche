@@ -13,16 +13,16 @@
                             <div class="col-md-6 col-lg-6">
                                 <br><br>
                                 <div class="row">
-                                    <div class="col-md-6 col-lg-6">
-                                        <div class="row">
-                                            <h6 class="col-md-12 col-lg-12" style="">{{$item->title}}</h6>
-                                            <small class="col-md-12 col-lg-12" >{{$item->quantity}} disponible(s)</small>
+                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                        <div class="row mobile-align" style="">
+                                            <h6 class="col-md-12 col-lg-12 col-sm-12" style="">{{$item->title}}</h6>
+                                            <small class="col-md-12 col-lg-12 col-sm-12" >{{$item->quantity}} disponible(s)</small>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-lg-6">
-                                        <div class="row">
-                                            <h6 class="col-md-12 col-lg-12" style="">{{$item->number1}}</h6>
-                                            <small class="col-md-12 col-lg-12" >Mr. {{$item->nom}}</small>
+                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                        <div class="row mobile-align">
+                                            <h6 class="col-md-12 col-lg-12 col-sm-12" style="">{{$item->number1}}</h6>
+                                            <small class="col-md-12 col-lg-12 col-sm-12" >Mr. {{$item->nom}}</small>
                                         </div>
                                     </div>
                                     <div class="col-md-12 col-lg-12 col-sm-12 productImage" style="height: 120px;">

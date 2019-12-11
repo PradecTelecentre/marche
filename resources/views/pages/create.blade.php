@@ -12,12 +12,12 @@
                     <small id="titreHelp" class="form-text text-muted">ici vous precisez le nom de l'article que vous voulez vendre</small>
                 </div>
                     <div class="row">
-                        <div class="col form-group">
+                        <div class="col-md-6 col-lg-6 col-sm-12 form-group">
                             <label for="inputQuantite">Quantite</label>
                             <input type="number" name="quantity" class="form-control" id="exampleInputQuantite" placeholder="3">
                             <small id="titreHelp" class="form-text text-muted">ici vous precisez la quantite de l'article</small>
                         </div>
-                        <div class="col form-group">
+                        <div class="col-md-6 col-lg-6 col-sm-12 form-group">
                             <label for="inputPrix">Prix (Unitaire) FCFA</label>
                             <input type="number" name="prix" class="form-control" id="exampleInputPrix" placeholder="50000">
                             <small id="inputPrix" class="form-text text-muted">ici vous precisez le prix de l'article</small>
@@ -33,18 +33,11 @@
                     <input type="text" name="nom" class="form-control" id="exampleInputPassword1" placeholder="Ousmane">
                     <small id="emailHelp" class="form-text text-muted">Donnez votre nom</small>
                 </div>
-                    <div class="row">
-                        <div class="col form-group">
-                            <label for="exampleInputPassword1">Numero 1</label>
-                            <input type="number" name="number1" class="form-control" id="exampleInputPassword1" placeholder="Numero 1">
-                            <small id="emailHelp" class="form-text text-muted">votre numéro de téléphone</small>
-                        </div>
-                        <div class="col form-group">
-                            <label for="exampleInputPassword1">Numero 2</label>
-                            <input type="number" name="number2" class="form-control" id="exampleInputPassword1" placeholder="Numero 2">
-                            <small id="emailHelp" class="form-text text-muted">votre un autre numéro de téléphone au cas où</small>
-                        </div>
-                    </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Numero 1</label>
+                    <input type="number" name="number1" class="form-control" id="exampleInputPassword1" placeholder="Numero 1">
+                    <small id="emailHelp" class="form-text text-muted">votre numéro de téléphone</small>
+                </div>
                 <div class="form-group mb-5">
                     <input type="file" name="images" class="" id="">
                 </div>

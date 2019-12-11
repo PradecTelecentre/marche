@@ -1,11 +1,11 @@
-<header class="site-header-goon">
+<div class="site-header-goon">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top marchegoon">
         <a class="navbar-brand nav-goon" href="#"><img src="{{asset('img/logo.jpg')}}" style="width: 100px; margin-left: 127px; margin-top: 46px;" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse header" id="navbarsExampleDefault">
+        <div class="collapse navbar-collapse header" id="navbarsExampleDefault" style="margin-top: -70px;">
             <ul class="navbar-nav ml-auto " >
             <li class="nav-item active">
                 <a class="nav-link" href="http://telecentrecameroon.ovh" style="color: black;">ACCUEIL <span class="sr-only">(current)</span></a>
@@ -30,4 +30,4 @@
             </ul>
         </div>
     </nav>
-</header>
+</div>
