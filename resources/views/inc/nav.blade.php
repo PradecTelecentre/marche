@@ -12,7 +12,7 @@
             </li>
             <li class="nav-item dropdown ">
                 <a class="nav-link dropdown-toggle" style="color: black;" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SERVICES</a>
-                <div class="dropdown-menu bg-goon " style="background: rgb(236, 160, 0); text-align: center" aria-labelledby="dropdown01">
+                <div class="dropdown-menu bg-goon " style="border: 0;background: #db8428; text-align: center" aria-labelledby="dropdown01">
                     <a class="dropdown-item" style="color: black;" href="http://telecentrecameroon.ovh/education">EDUCATION</a>
                     <a class="dropdown-item" style="color: black;" href="http://telecentrecameroon.ovh/information">INFORMATION</a>
                     <a class="dropdown-item" style="color: black;" href="#">PARLONS</a>
