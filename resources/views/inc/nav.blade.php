@@ -1,5 +1,5 @@
-<div class="site-header-goon fixed-top">
-    <nav class="navbar navbar-expand-md navbar-dark   marchegoon">
+<div class="site-header-goon ">
+    <nav class="navbar navbar-expand-md navbar-dark   marchegoon fixed-top">
         <a class="navbar-brand nav-goon" href="/"><img src="{{asset('img/goon.svg')}}" style="width: 150px; margin-left: 127px; margin-top: 44px;" alt=""></a>
         <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
