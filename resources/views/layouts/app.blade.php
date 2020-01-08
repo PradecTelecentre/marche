@@ -20,7 +20,7 @@
         @include('inc.nav')
 
         <main role="main" style="margin-top:150px;">
-            <div class="container">
+            <div class="container-fluid">
                 @include('inc.messages')
                 @yield('content')
             </div>

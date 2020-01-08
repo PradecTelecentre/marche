@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<div class="container">
+<div class="container produits">
     <div class="row">
         @include('inc.leftPicture')
         <div class="col-md-8">

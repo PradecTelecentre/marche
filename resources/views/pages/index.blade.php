@@ -1,31 +1,31 @@
 @extends('layouts.app')
 @section('content')
-<div class="container">
+<div class="container produits">
     <div class="row">
         @include('inc.leftPicture')
-        <div class="col-md-8 ">
+        <div class="col">
             <div class="row">
-                <div class="col-md-12 clearfix">
-                        <a type="button" class="btn float-right" href="/marche/create" style="background-color: darkorange">Ajouter un object</a>
+                <div class="col-md-12 clearfix ajouter">
+                        <a type="button" class="btn btn-outline-success" href="/marche/create">Ajouter un object</a>
                 </div>
                     @if (count($products) > 0)
                         @foreach ($products as $item)
                             <div class="col-md-6 col-lg-6">
                                 <br><br>
                                 <div class="row">
-                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                    <div class="col-md-6 col-lg-6 col-sm-6 item">
                                         <div class="row mobile-align" style="">
                                             <h6 class="col-md-12 col-lg-12 col-sm-12" style="">{{$item->title}}</h6>
-                                            <small class="col-md-12 col-lg-12 col-sm-12" >{{$item->quantity}} disponible(s)</small>
+                                            <small class="col-md-12 col-lg-12 col-sm-12 " >{{$item->quantity}} disponible(s)</small>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-lg-6 col-sm-12">
+                                    <div class="col-md-6 col-lg-6 col-sm-6 item">
                                         <div class="row mobile-align">
-                                            <h6 class="col-md-12 col-lg-12 col-sm-12" style="">{{$item->number1}}</h6>
+                                            <h6 class="col-md-12 col-lg-12 col-sm-12 " style="">{{$item->number1}}</h6>
                                             <small class="col-md-12 col-lg-12 col-sm-12" >Mr. {{$item->nom}}</small>
                                         </div>
                                     </div>
-                                    <div class="col-md-12 col-lg-12 col-sm-12 productImage" style="height: 120px;">
+                                    <div class="col-md-12 col-lg-12 col-sm-12 productImage" style="height: 250px; max-width:100%; width:100%">
                                         <img src="{{asset('storage/imagesItem/' .$item->image)}}" alt="" style="width: 100%; height: 100%">
                                         <div class="bottom-left">{{$item->prix}} fcfa</div>
                                     </div>
