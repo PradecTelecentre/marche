@@ -30,5 +30,8 @@
  ```
  $ php artisan migrate
  ```
-$ php artisan storage:link
+
  ```
+ $ php artisan storage:link
+ ```
+ 
