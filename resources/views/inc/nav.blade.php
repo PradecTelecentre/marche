@@ -18,15 +18,15 @@
                     <a class="dropdown-item" style="color: black;" href="http://goon.mandama.cm/information">LES NOUVELLES</a>
                     {{-- <a class="dropdown-item" style="color: black;" href="#">PARLONS</a> --}}
                     <a class="dropdown-item" style="color: black;" href="http://goon.mandama.cm/divertissement">JEUX</a>
-                    <a class="dropdown-item" style="color: black;" href="http://marche.mandama.cm/">le MARCHE</a>
+                    <a class="dropdown-item" style="color: black;" href="http://marche.mandama.cm/">LE MARCHE</a>
 
                 </div>
             </li>
                 <li class="nav-item">
-                    <a class="nav-link" style="color: black;" href="#">A-PROPOS <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" style="color: black;" href="http://goon.mandama.cm/apropos">A-PROPOS <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" style="color: black;" href="#">CONTACTS <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" style="color: black;" href="http://goon.mandama.cm/divertissement">CONTACTS <span class="sr-only">(current)</span></a>
                 </li>
 
             </ul>
