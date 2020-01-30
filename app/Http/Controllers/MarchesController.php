@@ -17,8 +17,7 @@ class MarchesController extends Controller
         $current_date = new DateTime();
         $current_date->modify('-7 day');
 
-
-        $products = Marche::orderBy('id', 'desc')->where('created_at', '>=', $current_date->format('Y-m-d H:i:s'))->paginate(6);
+        $products = Marche::orderBy('id', 'desc')->where('created_at', '>=', $current_date->format('Y-m-d H:i:s'))->paginate(4);
         return view('pages.index', compact('products'));
     }
 
