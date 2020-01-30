@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Marche;
+use DateTime;
 use Illuminate\Http\Request;
 
 class MarchesController extends Controller
@@ -14,7 +15,10 @@ class MarchesController extends Controller
     public function index()
     {
         //
-        $products = Marche::orderBy('id', 'desc')->paginate(6);
+        $current_date = new DateTime();
+        $current_date->modify('-7 day');
+
+        $products = Marche::orderBy('id', 'desc')->where('created_at', '>=' , $current_date->format('Y-m-d H:i:s'))->paginate(4);
         return view('pages.index', compact('products'));
     }
 
